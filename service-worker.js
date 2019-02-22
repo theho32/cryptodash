@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cryptodash-pages/precache-manifest.b53cd71e96853fb6b1885a29aeb6808d.js"
+  "/cryptodash/precache-manifest.17d4ed26ac6770c32d7b1b56af1b2386.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cryptodash-pages/index.html", {
+workbox.routing.registerNavigationRoute("/cryptodash/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
